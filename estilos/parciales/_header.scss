@@ -1,0 +1,87 @@
+.header {
+	background: rgb(92,152,138);
+    background: linear-gradient(47deg, rgba(92,152,138,1) 15%, rgba(207,115,48,1) 98%);
+
+     &__container--logo {
+        background: rgb(92,152,138);
+        background: linear-gradient(47deg, rgba(92,152,138,1) 15%, rgba(207,115,48,1) 98%);
+        color: white;
+        padding: 1em;
+        font-size: .5em;
+        display: flex;
+        position: fixed;
+        z-index: 1000000;
+        top: 0;
+        left: 0;
+        right: 0;
+        
+    
+    }
+    
+     &__logo {
+        margin: 0;
+        flex: 1;
+        text-align: center;
+        height: 37px;
+        width: 28px;
+    
+    }
+    
+     &__nav {
+        position: fixed;
+        
+        background: rgba( 0,0,0, .8);
+        top: 0;
+        bottom: 0;
+        left: -100vw;
+        width: 100%;
+        transition: 0.7s;
+        z-index: 2;
+    }
+    
+     &__list{
+        list-style: none;
+        padding: 0;
+        width: 80%;
+        margin: 6em auto;
+        background: #FFF;
+    }
+    
+     &__link {
+        display: block;
+        padding: .75em 1em;
+        border-bottom: 1px solid #AAA;
+        color: #CFAD87;
+        text-decoration: none;
+    }
+    
+     &__link:link {
+        text-decoration: none;
+    }
+    
+     &__item:last-child a {
+        border: none;
+    }
+}
+
+#menu-toggle {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../imagenes/abrir-menu.png) no-repeat;
+    background-size: contain;
+    margin-top: 2px;
+}
+
+
+.menu_abierto nav {
+    left: 0;
+}
+
+.menu_abierto #menu-toggle {
+    background-image: url(../imagenes/cerrar-menu.png);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin-top: 2px;
+}

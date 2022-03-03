@@ -1,0 +1,77 @@
+$blanco : #fff;
+
+$lista: #282828, red, green;
+
+$primario: nth($lista, 1);
+ 
+
+.footer {
+	background-color:$primario;
+	width: 100%;
+}
+
+
+.footer__redes--title, .footer__contacto--title{
+	padding: 1em;
+	color: $blanco;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.footer__redes--title span {
+	color: green;
+}
+
+.footer__container div ul {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.footer__container div ul li {
+	list-style: none;
+}
+
+.footer__container div ul li a {
+	text-decoration: none;
+}
+
+.footer__container div ul li a i {
+	color: $blanco;
+	font-size: 2em;
+}
+       
+.footer__container .contacto {
+	text-align: center;
+}
+
+.footer__container .contacto  p{
+	color: $blanco;
+}
+
+
+.footer__container .contacto  a i{
+	font-size: 2em;
+	color: $blanco;
+	padding: 1em;
+}
+
+.borde {
+	display: inline-block;
+	padding-bottom: 1em 0 1em 0;
+	border-bottom: 1px solid $blanco;
+	width: 100%;
+}
+
+@mixin linea ($color, $padding, $align, $fsize ) {
+    color: $color;
+    padding: $padding;
+    align-items: $align;
+    font-size: $fsize;
+    
+}
+
+.pie p{
+
+    @include linea($blanco,1em ,center ,.7em )
+}

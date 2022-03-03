@@ -1,0 +1,352 @@
+$negro : #3A3A3A;
+$blanco : #fff;
+
+.main {
+	width: 100%;
+	background-color: antiquewhite;
+	margin-top: 3.4em;
+	
+
+}
+
+
+.hero__section {
+	width: 100%;
+	height: 100%;
+	position: relative;
+		
+}
+
+
+
+.hero__container--texto {
+	position: absolute;
+	top: 0;
+	color: $blanco;
+	width: 100%;
+	text-align: center;
+	margin-top: 25%;;
+	
+}
+
+
+.hero__title {
+	font-size: 2em;
+	color: $blanco;
+	display: block;
+}
+
+.hero__texto {
+	font-size: 1em;
+	padding-top: 1em;
+	display: block;
+}
+
+.hero__img {
+	width: 100%;
+	margin-bottom: -5px;
+}
+
+.hero__link {
+	text-decoration: none;
+	padding: 10px;
+	background: green;
+	color: $blanco;
+	display: inline-block;
+	margin-top: 2em;
+}
+
+
+
+.borde{
+	border: 1px solid black;
+}
+
+
+/* BUNGALOWS */
+
+.bungalows {
+	width: 100%;
+	
+}
+
+.bungalows__title {
+	font-size: 1em;
+	padding: 10px;
+	text-align: center;
+}
+
+.bungalows__container {
+	width: 100%;
+	display: inline-block;
+}
+
+.bungalows__articulo {
+	width: 100%;
+	display: inline-block;
+	
+	
+}
+
+
+@mixin sizes ($with, $height, $border, $padding) {
+    width: $with;
+    height: $height;
+    border: $border;
+    padding: $padding;
+
+    
+}
+
+.bungalows__articulo--img {
+    @include sizes(100%,200px, 3px solid black , .2em)
+}
+
+
+.bungalows__articulo--title {
+	text-align: center;
+	padding: 10px 0 10px 0;
+	
+}
+
+.bungalows__articulo--texto {
+	padding: 10px;
+	text-align: center;
+	
+}
+
+
+.borde {
+	border-bottom: 1px solid #000;
+	display: inline-block;
+	width: 100%;
+	margin: 1em 0 1em 0;
+}
+
+.bungalows__warning {
+	padding: 0 .5em .5em .5em;
+}
+
+/* Servicios */
+
+
+.servicios__title {
+	text-align: center;
+	background: $negro;
+	padding: .7em 0 .7em 0;
+	color: $blanco;
+}
+
+.servicios__img--header{
+	width: 100%;
+	
+}
+
+.servicios__presentacion {
+	background: url(../imagenes/molinoForclaz.jpg);
+	background-attachment: fixed;
+	padding: 1em 0 1em 0;
+	margin-top: -4px;
+	width: 100%;
+}
+
+.servicios__subtitle {
+	text-align: center;
+	color: $blanco;
+	padding-bottom: 1em;
+}
+
+.servicios__texto {
+	color: $blanco;
+	line-height: 1.5em;
+	padding: 0 1em 0 1em;
+}
+
+
+.servicios__list--ul {
+	padding: 1em 0 1em 1em;
+	width: 100%;
+	
+}
+
+.servicios__list {
+	list-style: none;
+}
+
+.servicios__item {
+	line-height: 1.7em;
+}
+
+.fa-solid {
+	color: green;
+	padding-right: .5em;
+}
+
+
+.servicios__imagen {
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+/* Atractivos */
+.atractivos{
+    color: cornsilk;
+	width: 100%;
+	display: inline-block;
+}
+
+
+
+.atractivos__header {
+	background: $negro;             
+	padding: 1em 0 1em 0;
+	text-align: center;
+}
+
+.atractivos__titulo {
+	padding-bottom: .5em;
+}
+
+.atractivos__contenedor {
+	width: 100%;
+}
+
+.atractivos__fotos {
+	width: 100%;
+	position: relative;
+	
+}
+ 
+.atractivos__subtitle {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.atractivos__img {
+	width: 100%;
+	height: 300px;
+}
+
+.atractivos__mapa {
+	width: 100%;
+}
+
+.atractivos__iframe {
+	width: 100%;
+	height: 250px;
+}
+
+
+
+
+/*  UBICACION */
+
+.ubicacion_{
+	text-align: center;
+	
+}
+.ubicacion__title{
+
+	background-color: $negro;
+	height:3em;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	
+	color: $blanco;
+}
+
+
+.colum__der h3{
+	text-align: center;
+	margin-bottom: 2em;
+}
+.coordenadas{
+	text-align: center;
+	margin-top: 5em;
+}
+
+
+
+
+.ubicacion__iframe{
+
+		width: 100%;
+	}
+
+	
+.ubicacion__ubicacion{
+	
+	padding: 2em;
+	text-align: center;
+	background-image: url(../imagenes/IslaCaridad.jpg);
+	background-position: bottom;
+	background-attachment: fixed;
+	font-weight: 800;
+	color: $blanco;
+	}
+	
+	
+
+
+/* CONTACTO */
+
+.bienvenidos{
+    background-color: $negro;
+    color: aliceblue;
+    padding: 20px 20px;
+	
+    
+  }
+
+.formulario__contenedor {
+	width: 100%;
+	padding: .5em;
+}
+
+.fomulario__div {
+	width: 100%;
+}
+
+.formulario__label  {
+	width: 100%;
+	display: inline-block;
+	margin: .5em 0 .5em 0;
+	
+}
+
+.formulario__casilleros, .formulario__mensaje {
+	width: 100%;
+	padding: .7em;
+}
+
+.formulario__mensaje {
+	height: 200px;
+}
+
+.formulario__submit {
+	background: green;
+	padding: .5em 1em .5em 1em;
+	width: 49%;
+	border: none;
+	margin: 1em 0 1em 0;
+	color: $blanco;
+}
+
+.formulario__reset {
+    @extend .formulario__submit;
+    background: green;
+	padding: .5em 1em .5em 1em;
+	width: 49%;
+	border: none;
+	margin: 1em 0 1em 0;
+	color: $blanco;
+
+}
+
