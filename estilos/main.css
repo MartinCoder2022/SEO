@@ -419,6 +419,18 @@ body {
   padding: 0 .5em .5em .5em;
 }
 
+.bungalows__articulo--link{
+  text-decoration: none;
+	padding: 2px;
+	background: green;
+	color: #FFF;
+	display: inline-block;
+	margin-top: 0em;
+  font-size: 0.9em;
+  border-radius: 3px;
+}
+
+
 /* Servicios */
 .servicios__title {
   text-align: center;
@@ -1176,7 +1188,10 @@ body {
   .contenedor-grid {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'header ' 'main' 'main' 'footer';
+        grid-template-areas: 'header '
+ 'main'
+ 'main'
+ 'footer';
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: auto;
@@ -1209,7 +1224,10 @@ body {
   .contenedor-grid {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'header header' 'main main' 'main main' 'footer footer';
+        grid-template-areas: 'header header'
+ 'main main'
+ 'main main'
+ 'footer footer';
     -ms-grid-columns: 1fr auto;
         grid-template-columns: 1fr auto;
     -ms-grid-rows: auto;
@@ -1265,7 +1283,10 @@ body {
   .contenedor-grid {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'header  ' 'main' 'main' 'footer ';
+        grid-template-areas: 'header  '
+ 'main'
+ 'main'
+ 'footer ';
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: auto;
@@ -1297,7 +1318,10 @@ body {
   .contenedor-grid {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'header header ' 'main main' 'main main' 'footer footer';
+        grid-template-areas: 'header header '
+ 'main main'
+ 'main main'
+ 'footer footer';
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: auto;
@@ -1530,7 +1554,10 @@ body {
   .contenedor-grid {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'header header header' 'main main main' 'main main main' 'footer footer footer';
+        grid-template-areas: 'header header header'
+ 'main main main'
+ 'main main main'
+ 'footer footer footer';
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
     -ms-grid-rows: auto;
