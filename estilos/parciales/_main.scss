@@ -251,6 +251,10 @@ $blanco : #fff;
 	display: inline-block;
 	
 }
+.bungalows div:hover img {
+	transform:scale(1.1);transform:scale(1.1);
+	transition: 2s;
+}
 
 
 @mixin sizes ($with, $height, $border, $padding) {
