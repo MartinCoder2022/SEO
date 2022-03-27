@@ -344,12 +344,14 @@ body {
   display: inline-block;
 }
 
-.bungalows div:hover img {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  transform: scale(1.1);
-  -webkit-transition: 2s;
-  transition: 2s;
+.bungalows__articulo--link {
+  text-decoration: none;
+  padding: 4px;
+  background: green;
+  color: #fff;
+  display: inline-block;
+  margin-top: 0.01em;
+  font-size: 0.8em;
 }
 
 .bungalows__articulo--img {
@@ -418,18 +420,6 @@ body {
 .bungalows__warning {
   padding: 0 .5em .5em .5em;
 }
-
-.bungalows__articulo--link{
-  text-decoration: none;
-	padding: 2px;
-	background: green;
-	color: #FFF;
-	display: inline-block;
-	margin-top: 0em;
-  font-size: 0.9em;
-  border-radius: 3px;
-}
-
 
 /* Servicios */
 .servicios__title {
@@ -743,7 +733,7 @@ body {
 .atractivos__subtitle {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 35%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
@@ -1188,10 +1178,7 @@ body {
   .contenedor-grid {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'header '
- 'main'
- 'main'
- 'footer';
+        grid-template-areas: 'header ' 'main' 'main' 'footer';
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: auto;
@@ -1224,10 +1211,7 @@ body {
   .contenedor-grid {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'header header'
- 'main main'
- 'main main'
- 'footer footer';
+        grid-template-areas: 'header header' 'main main' 'main main' 'footer footer';
     -ms-grid-columns: 1fr auto;
         grid-template-columns: 1fr auto;
     -ms-grid-rows: auto;
@@ -1283,10 +1267,7 @@ body {
   .contenedor-grid {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'header  '
- 'main'
- 'main'
- 'footer ';
+        grid-template-areas: 'header  ' 'main' 'main' 'footer ';
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: auto;
@@ -1318,10 +1299,7 @@ body {
   .contenedor-grid {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'header header '
- 'main main'
- 'main main'
- 'footer footer';
+        grid-template-areas: 'header header ' 'main main' 'main main' 'footer footer';
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: auto;
@@ -1554,10 +1532,7 @@ body {
   .contenedor-grid {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'header header header'
- 'main main main'
- 'main main main'
- 'footer footer footer';
+        grid-template-areas: 'header header header' 'main main main' 'main main main' 'footer footer footer';
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
     -ms-grid-rows: auto;

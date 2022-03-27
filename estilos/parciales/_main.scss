@@ -251,9 +251,16 @@ $blanco : #fff;
 	display: inline-block;
 	
 }
-.bungalows div:hover img {
-	transform:scale(1.1);transform:scale(1.1);
-	transition: 2s;
+
+
+.bungalows__articulo--link{
+	text-decoration: none;
+	padding: 4px;
+	background: green;
+	color: $blanco;
+	display: inline-block;
+	margin-top: 0.01em;
+	font-size: 0.8em;
 }
 
 
@@ -659,7 +666,7 @@ $blanco : #fff;
 .atractivos__subtitle {
 	position: absolute;
     top: 50%;
-    left: 50%;
+    left: 35%;
     transform: translate(-50%, -50%);
 }
 
