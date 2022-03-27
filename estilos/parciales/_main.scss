@@ -665,9 +665,10 @@ $blanco : #fff;
  
 .atractivos__subtitle {
 	position: absolute;
-    top: 50%;
+    top: 85%;
     left: 35%;
-    transform: translate(-50%, -50%);
+	color:$blanco;	
+	transform: translate(-50%, -50%);
 }
 
 .atractivos__img {

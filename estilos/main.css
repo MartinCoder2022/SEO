@@ -732,8 +732,9 @@ body {
 
 .atractivos__subtitle {
   position: absolute;
-  top: 50%;
+  top: 85%;
   left: 35%;
+  color: #fff;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
